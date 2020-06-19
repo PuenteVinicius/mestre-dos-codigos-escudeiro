@@ -6,4 +6,6 @@ ul {
 
 body {
   font-family: 'Comfortaa', cursive;
+  margin: 0;
+  background: black;
 }

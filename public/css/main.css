@@ -1,0 +1,25 @@
+.main {
+  width: 100vw;
+  background-image: url(../images/space-force.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    min-height: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    min-height: 520px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    min-height: 90vh;
+  }
+}
