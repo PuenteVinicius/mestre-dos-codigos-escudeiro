@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  background: black;
+}
