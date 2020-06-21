@@ -1,35 +1,32 @@
 .container {
   display: grid;
-	grid-template-columns: 33.33% 33.33% 33.33%;
-	grid-template-rows: auto;
-	column-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  column-gap: 20px;
   grid-template-areas:
-    "header header header"
-		"main main main"
-		"main main main"
-		"main main main"
-		"series series series"
-		"series series series"
-		"animes animes animes"
-		"animes animes animes"
-		"footer footer footer";
+    "header"
+    "main"
+    "series"
+    "animes"
+    "footer";
 }
+
 .header {
-	grid-area: header;
+  grid-area: header;
 }
 
 .main {
-	grid-area: main;
+  grid-area: main;
 }
 
 .series {
-	grid-area: series;
+  grid-area: series;
 }
 
 .animes {
-	grid-area: animes;
+  grid-area: animes;
 }
 
 .footer {
-	grid-area: footer;
+  grid-area: footer;
 }
