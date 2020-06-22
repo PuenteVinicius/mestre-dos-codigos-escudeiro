@@ -1,0 +1,61 @@
+:root {
+  --netflix-white: white;
+}
+
+.panel {
+  position: absolute;
+  top: 50%;
+  left: 1em;
+}
+
+.panel__logo {
+  width: 35%;
+}
+.panel__actions {
+  margin-top: 2em;
+  width: auto;
+}
+.panel__watch {
+  border: none;
+  background: white;
+  width: 100%;
+  max-width: 8em;
+  min-height: 2.7em;
+  border-radius: 5px;
+}
+.panel__play {
+
+}
+.panel__to-watch {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.panel__info {
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 10em;
+  min-height: 2.7em;
+  border-radius: 5px;
+  margin-left: .5em;
+  color: white;
+}
+.panel__attention {
+
+}
+.panel__plus-info {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}

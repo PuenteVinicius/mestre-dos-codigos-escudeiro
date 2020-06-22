@@ -7,9 +7,15 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <link rel="stylesheet" type="text/css" href="../public/css/grid.css" />
       <link rel="stylesheet" type="text/css" href="../public/css/reset.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/header.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/main.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="../public/css/header/header.css" />
+      <link rel="stylesheet" type="text/css" href="../public/css/main/age-sound.css" />
+      <link rel="stylesheet" type="text/css" href="../public/css/main/main.css" />
+      <link rel="stylesheet" type="text/css" href="../public/css/main/panel.css" />
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
       <title>Desáfio Mestre dos códigos [Escudeiro]</title>
     </head>
     <body>
@@ -17,7 +23,9 @@
         <header class="header">
           <nav class="user">
             <ul class="user__list">
-              <li class="user__item user__item--netflix"><a href="#">Netflix</a></li>
+              <li class="user__item user__item--netflix">
+                <a href="#">Netflix</a>
+              </li>
               <li class="user__item"><a href="#">Início</a></li>
               <li class="user__item"><a href="#">Séries</a></li>
               <li class="user__item"><a href="#">Animes</a></li>
@@ -25,7 +33,7 @@
               <li class="user__item"><a href="#">Minha lista</a></li>
             </ul>
             <span class="user__navigate-click">Navegar</span>
-            <nav class="user__navigate">
+            <!-- <nav class="user__navigate">
               <ul>
                 <li class="user__navigate-item"><a href="#">Início</a></li>
                 <li class="user__navigate-item"><a href="#">Séries</a></li>
@@ -33,14 +41,38 @@
                 <li class="user__navigate-item"><a href="#">Mais recentes</a></li>
                 <li class="user__navigate-item"><a href="#">Minha lista</a></li>
               </ul>
-            </nav>
+            </nav> -->
           </nav>
           <figure class="avatar">
-            <img src="../public/images/okja.png" alt="personagem okja" class="avatar__img">
+            <img
+              src="../public/images/okja.png"
+              alt="personagem okja"
+              class="avatar__img"
+            />
           </figure>
         </header>
         <section class="main">
-          
+          <div class="panel">
+            <img src="../public/images/space-force-logo.png" alt="logo da série" class="panel__logo" />
+            <div class="panel__actions">
+              <button class="panel__watch">
+                <i class="panel__play"></i>
+                <span class="panel__to-watch">Assistir</span>
+              </button>
+              <button class="panel__info">
+                <i class="panel__attention"></i
+                ><span class="panel__plus-info">Mais informações</span>
+              </button>
+            </div>
+          </div>
+          <div class="age-sound">
+            <div class="age-sound__sound">
+              <i class="age-sound__icon"></i>
+            </div>
+            <div class="age-sound__age">
+              <span class="age-sound__text">16</span>
+            </div>
+          </div>
         </section>
         <section class="series"></section>
         <section class="animes"></section>

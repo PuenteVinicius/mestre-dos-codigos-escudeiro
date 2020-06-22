@@ -1,0 +1,17 @@
+.age-sound {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  width: 5em;
+}
+.age-sound__age {
+  display: flex;  
+}
+.age-sound__text {
+  color: white;
+  font-weight: bolder;
+  background: #e08181;
+  padding: 0.4em;
+  font-size: 20px;
+  border-radius: 5px;
+}
