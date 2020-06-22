@@ -1,17 +1,57 @@
+:root {
+  --netflix-white: white;
+  --age-sound-text: #de3d3d;
+}
+
 .age-sound {
   position: absolute;
   top: 70%;
   right: 0;
-  width: 5em;
+  width: 6.5em;
+  background: linear-gradient(to right, rgba(181, 181, 181, 0.05) 0%, rgba(82, 82, 82, 0.15) 45%, rgba(0, 0, 0, 0.2) 100%);
+  display: flex;
+  flex-flow: row;
+
 }
+
 .age-sound__age {
-  display: flex;  
+  display: flex;
+  border-left: 3px solid var(--netflix-white);
 }
+
 .age-sound__text {
-  color: white;
+  color: var(--netflix-white);
   font-weight: bolder;
-  background: #e08181;
+  background: var(--age-sound-text);
   padding: 0.4em;
   font-size: 20px;
   border-radius: 5px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .age-sound {
+    width: 10em;
+  }
+  .age-sound__text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .age-sound__text {
+    font-size: 25px;
+  }
+  .age-sound {
+    width: 8.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .age-sound__text {
+    font-size: 20px;
+  }
+  .age-sound {
+    width: 6.5em;
+  }
 }
