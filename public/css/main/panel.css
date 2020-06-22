@@ -1,0 +1,132 @@
+:root {
+  --netflix-white: white;
+  --watch-hover-color: rgba(255, 255, 255, 0.6);
+  --info-color: rgba(0, 0, 0, 0.1);
+  --info-color-hover: rgba(0, 0, 0, 0.3);
+}
+
+.panel {
+  position: absolute;
+  top: 50%;
+  left: 1em;
+
+}
+
+.panel__logo {
+  width: 35%;
+}
+
+.panel__actions {
+  margin-top: 2em;
+  width: auto;
+  display: flex;
+
+}
+
+.panel__watch {
+  border: none;
+  background: var(--netflix-white);
+  width: 100%;
+  max-width: 8em;
+  min-height: 2.7em;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.panel__watch:hover {
+  background: var(--watch-hover-color);
+  animation: ease-in-out 1s;
+}
+
+
+.panel__to-watch {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.panel__info {
+  border: none;
+  background: var(--info-color);
+  width: 100%;
+  max-width: 10em;
+  min-height: 2.7em;
+  border-radius: 5px;
+  margin-left: .5em;
+  color: var(--netflix-white);
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.panel__info:hover {
+  background: var(--info-color-hover);
+  animation: ease-in-out 1s;
+}
+
+.panel__plus-info {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  .panel__logo {
+    width: 50%;
+  }
+  .panel__watch {
+    max-width: 14em;
+    min-height: 5em;
+  }
+
+  .panel__to-watch {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .panel__info {
+    max-width: 14em;
+    min-height: 5em;
+  }
+
+  .panel__plus-info {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .panel__watch {
+    max-width: 9em;
+    min-height: 4em;
+  }
+  .panel__info {
+    max-width: 9em;
+    min-height: 4em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .panel__logo {
+    width: 35%;
+  }
+  .panel__watch {
+    max-width: 10em;
+    min-height: 2.7em;
+  }
+
+  .panel__to-watch {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+
+  .panel__info {
+    max-width: 10em;
+    min-height: 2.7em;
+  }
+
+  .panel__plus-info {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
