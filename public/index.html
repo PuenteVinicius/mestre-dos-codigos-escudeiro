@@ -7,10 +7,31 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <link rel="stylesheet" type="text/css" href="../public/css/grid.css" />
       <link rel="stylesheet" type="text/css" href="../public/css/reset.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/header/header.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/main/age-sound.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/main/main.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/main/panel.css" />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../public/css/header/header.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../public/css/main/age-sound.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../public/css/main/main.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="../public/css/main/panel.css"
+      />
+      <link
+      rel="stylesheet"
+      type="text/css"
+      href="../public/css/main/series.css"
+    />
 
       <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap"
@@ -53,7 +74,11 @@
         </header>
         <section class="main">
           <div class="panel">
-            <img src="../public/images/space-force-logo.png" alt="logo da série" class="panel__logo" />
+            <img
+              src="../public/images/space-force-logo.png"
+              alt="logo da série"
+              class="panel__logo"
+            />
             <div class="panel__actions">
               <button class="panel__watch">
                 <i class="panel__play"></i>
@@ -71,7 +96,51 @@
             </div>
           </div>
         </section>
-        <section class="series"></section>
+        <section class="series">
+          <h3 class="series__title">
+            Series
+          </h3>
+          <ul class="series__carrousel">
+            <li class="series__carrousel-item">
+              <img class="series__img-1" src="../public/images/series/arrow.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-2" src="../public/images/series/desencanto.jpg" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-3" src="../public/images/series/gothan.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-4" src="../public/images/series/jornada-nas-estrelas.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-5" src="../public/images/series/last-kingdom.jpg" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-6" src="../public/images/series/os-indomaveis.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-7" src="../public/images/series/perdidos-no-espaco.jpg" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-8" src="../public/images/series/principe-draga.jpg" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-9" src="../public/images/series/ragnarok.jpg" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-10" src="../public/images/series/supergirl.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-11" src="../public/images/series/teen-wolf.webp" alt="" />
+            </li>
+            <li class="series__carrousel-item">
+              <img class="series__img-12" src="../public/images/series/ultimo-guardiao.jpg " alt="" />
+            </li>
+          </ul>
+          <button class="prev" onclick="show(-1)">&lt;</button>
+          <button class="next" onclick="show(+1)">&gt;</button>
+        </section>
         <section class="animes"></section>
         <footer class="footer"></footer>
       </main>
