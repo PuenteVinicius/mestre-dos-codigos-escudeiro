@@ -1,60 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <html lang="”pt-br”">
-    <head>
-      <meta charset="”UTF-8”" />
-      <meta http-equiv="Content-Language" content="pt-br" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <link rel="stylesheet" type="text/css" href="../public/css/grid.css" />
-      <link rel="stylesheet" type="text/css" href="../public/css/reset.css" />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="../public/css/header/header.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="../public/css/main/age-sound.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="../public/css/main/main.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="../public/css/main/panel.css"
-      />
-      <link
-      rel="stylesheet"
-      type="text/css"
-      href="../public/css/main/series.css"
-    />
+<html lang="”pt-br”">
 
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
-      <title>Desáfio Mestre dos códigos [Escudeiro]</title>
-    </head>
-    <body>
-      <main class="container">
-        <header class="header">
-          <nav class="user">
-            <ul class="user__list">
-              <li class="user__item user__item--netflix">
-                <a href="#">Netflix</a>
-              </li>
-              <li class="user__item"><a href="#">Início</a></li>
-              <li class="user__item"><a href="#">Séries</a></li>
-              <li class="user__item"><a href="#">Animes</a></li>
-              <li class="user__item"><a href="#">Mais recentes</a></li>
-              <li class="user__item"><a href="#">Minha lista</a></li>
-            </ul>
-            <span class="user__navigate-click">Navegar</span>
-            <!-- <nav class="user__navigate">
+<head>
+  <meta charset="”UTF-8”" />
+  <meta http-equiv="Content-Language" content="pt-br" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../public/css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/header/header.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/main/age-sound.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/main/main.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/main/panel.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/main/series.css" />
+  <link rel="stylesheet" type="text/css" href="../public/css/components/carousel.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <title>Desáfio Mestre dos códigos [Escudeiro]</title>
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <nav class="user">
+        <ul class="user__list">
+          <li class="user__item user__item--netflix">
+            <a href="#">Netflix</a>
+          </li>
+          <li class="user__item"><a href="#">Início</a></li>
+          <li class="user__item"><a href="#">Séries</a></li>
+          <li class="user__item"><a href="#">Animes</a></li>
+          <li class="user__item"><a href="#">Mais recentes</a></li>
+          <li class="user__item"><a href="#">Minha lista</a></li>
+        </ul>
+        <span class="user__navigate-click">Navegar</span>
+        <!-- <nav class="user__navigate">
               <ul>
                 <li class="user__navigate-item"><a href="#">Início</a></li>
                 <li class="user__navigate-item"><a href="#">Séries</a></li>
@@ -63,88 +44,212 @@
                 <li class="user__navigate-item"><a href="#">Minha lista</a></li>
               </ul>
             </nav> -->
-          </nav>
-          <figure class="avatar">
-            <img
-              src="../public/images/okja.png"
-              alt="personagem okja"
-              class="avatar__img"
-            />
-          </figure>
-        </header>
-        <section class="main">
-          <div class="panel">
-            <img
-              src="../public/images/space-force-logo.png"
-              alt="logo da série"
-              class="panel__logo"
-            />
-            <div class="panel__actions">
-              <button class="panel__watch">
-                <i class="panel__play"></i>
-                <span class="panel__to-watch">Assistir</span>
-              </button>
-              <button class="panel__info">
-                <i class="panel__attention"></i
-                ><span class="panel__plus-info">Mais informações</span>
-              </button>
-            </div>
-          </div>
-          <div class="age-sound">
-            <div class="age-sound__age">
-              <span class="age-sound__text">16</span>
-            </div>
-          </div>
-        </section>
-        <section class="series">
-          <h3 class="series__title">
-            Series
-          </h3>
-          <ul class="series__carrousel">
-            <li class="series__carrousel-item">
-              <img class="series__img-1" src="../public/images/series/arrow.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-2" src="../public/images/series/desencanto.jpg" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-3" src="../public/images/series/gothan.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-4" src="../public/images/series/jornada-nas-estrelas.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-5" src="../public/images/series/last-kingdom.jpg" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-6" src="../public/images/series/os-indomaveis.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-7" src="../public/images/series/perdidos-no-espaco.jpg" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-8" src="../public/images/series/principe-draga.jpg" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-9" src="../public/images/series/ragnarok.jpg" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-10" src="../public/images/series/supergirl.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-11" src="../public/images/series/teen-wolf.webp" alt="" />
-            </li>
-            <li class="series__carrousel-item">
-              <img class="series__img-12" src="../public/images/series/ultimo-guardiao.jpg " alt="" />
-            </li>
-          </ul>
-          <button class="prev" onclick="show(-1)">&lt;</button>
-          <button class="next" onclick="show(+1)">&gt;</button>
-        </section>
-        <section class="animes"></section>
-        <footer class="footer"></footer>
-      </main>
-      <script type="text/javascript" src="../public/js/index.js"></script>
-    </body>
-  </html>
+      </nav>
+      <figure class="avatar">
+        <img src="../public/images/okja.png" alt="personagem okja" class="avatar__img" />
+      </figure>
+    </header>
+    <section class="main">
+      <div class="panel">
+        <img src="../public/images/space-force-logo.png" alt="logo da série" class="panel__logo" />
+        <div class="panel__actions">
+          <button class="panel__watch">
+            <i class="panel__play"></i>
+            <span class="panel__to-watch">Assistir</span>
+          </button>
+          <button class="panel__info">
+            <i class="panel__attention"></i><span class="panel__plus-info">Mais informações</span>
+          </button>
+        </div>
+      </div>
+      <div class="age-sound">
+        <div class="age-sound__age">
+          <span class="age-sound__text">16</span>
+        </div>
+      </div>
+    </section>
+    <section class="series carousel">
+      <h3 class="carousel__title">
+        Series
+      </h3>
+      <ul class="carousel__list">
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/arrow.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/desencanto.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/gothan.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/jornada-nas-estrelas.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/last-kingdom.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/os-indomaveis.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/perdidos-no-espaco.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/principe-draga.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/ragnarok.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/supergirl.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/teen-wolf.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--series">
+          <img class="carousel__img" src="../public/images/series/ultimo-guardiao.jpg " />
+        </li>
+      </ul>
+      <button class="prev" onclick="show(-1)">&lt;</button>
+      <button class="next" onclick="show(+1)">&gt;</button>
+    </section>
+    <section class="animes carousel">
+      <h3 class="carousel__title">
+        Animes
+      </h3>
+      <ul class="carousel__list">
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/baki.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/beastars.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/caroline.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/evangelion.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/fullmetal.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/god-eater.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/kakeguri.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/psycho.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/silencio.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/sinbad.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/sword.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--animes">
+          <img class="carousel__img" src="../public/images/animes/your-name.webp" />
+        </li>
+      </ul>
+      <button class="prev" onclick="show(-1)">&lt;</button>
+      <button class="next" onclick="show(+1)">&gt;</button>
+    </section>
+    <section class="mais-recente carousel">
+      <h3 class="carousel__title">
+        Mais Recentes
+      </h3>
+      <ul class="carousel__list">
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/2020.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/bna.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/como-vender.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/cursed.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/dark.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/homem-aranha.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/legion.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/lista-negra.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/pan.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/sherlock.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/viagem-de-chihiro.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--mais-recente">
+          <img class="carousel__img" src="../public/images/mais-recente/warrior.jpg" />
+        </li>
+      </ul>
+      <button class="prev" onclick="show(-1)">&lt;</button>
+      <button class="next" onclick="show(+1)">&gt;</button>
+    </section>
+    <section class="minha-lista carousel">
+      <h3 class="carousel__title">
+        Minha Lista
+      </h3>
+      <ul class="carousel__list">
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/72-animais.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/72.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/bebes.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/casas.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/curta-essa.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/marte.webp" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/nosso-planeta.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/pandemia.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/planeta-bizarro.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/projeto.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/terra-noite.jpg" />
+        </li>
+        <li class="carousel__list-item carousel__list-item--minha-lista">
+          <img class="carousel__img" src="../public/images/minha-lista/universo.webp " />
+        </li>
+      </ul>
+      <button class="prev" onclick="show(-1)">&lt;</button>
+      <button class="next" onclick="show(+1)">&gt;</button>
+    </section>
+    <footer class="footer"></footer>
+  </main>
+  <script type="text/javascript" src="../public/js/index.js"></script>
+</body>
 </html>
