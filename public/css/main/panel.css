@@ -7,9 +7,8 @@
 
 .panel {
   position: absolute;
-  top: 50%;
-  left: 1em;
-
+  top: calc(50% - 100px);
+  left: 2em;
 }
 
 .panel__logo {
@@ -20,7 +19,6 @@
   margin-top: 2em;
   width: auto;
   display: flex;
-
 }
 
 .panel__watch {

@@ -8,6 +8,8 @@
     "main"
     "series"
     "animes"
+    "mais-recente"
+    "minha-lista"
     "footer";
 }
 
@@ -25,6 +27,14 @@
 
 .animes {
   grid-area: animes;
+}
+
+.mais-recente {
+  grid-area: mais-recente;
+}
+
+.minha-lista {
+  grid-area: minha-lista;
 }
 
 .footer {
