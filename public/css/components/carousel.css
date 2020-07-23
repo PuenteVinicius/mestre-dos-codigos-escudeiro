@@ -4,6 +4,12 @@
   padding: .5em 0 .5em 2em;
 }
 
+.carousel__wrapper {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
 .carousel__title {
   color: white;
   margin: .5em .5em .5em 0;
@@ -40,8 +46,8 @@
 	height: 44px;
 	outline: none;
 	border: none;
-	height: 100%;
-	top: 0;
+	height: 50%;
+	top: 1em;
 	cursor: pointer;
 }
 .prev:hover,.next:hover {
@@ -50,7 +56,8 @@
 }
 
 .prev {
-  left: 0;
+	left: 1.2em;
+	bottom: 0;
 }
 
 .next {
