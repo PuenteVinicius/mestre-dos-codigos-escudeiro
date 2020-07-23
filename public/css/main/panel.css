@@ -7,7 +7,7 @@
 
 .panel {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 100px);
   left: 2em;
 }
 
