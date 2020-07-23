@@ -68,6 +68,14 @@
   text-align: center;
   border-top: 2px solid var(--netflix-white);
   background-color: var(--user-navigate);
+  display: none
+
+}
+
+.user__navigate--show {
+  display: block;
+  transition: 0.3s;
+  animation: ease-in-out 1s;
 }
 
 .user__navigate::after {
@@ -109,6 +117,9 @@
   font-weight: 900;
   color: var(--netflix-white);
   cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
 }
 
 .user__navigate-click::after {
@@ -173,7 +184,7 @@
 
   .user__navigate-item {
     display: block;
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .user-navigate {
@@ -193,6 +204,10 @@
 
   .user__navigate-click::after {
     display: none;
+  }
+
+  .user__navigate--show {
+    display: none
   }
 
   .header {

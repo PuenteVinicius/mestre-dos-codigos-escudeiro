@@ -28,20 +28,20 @@
           <li class="user__item user__item--netflix">
             <a href="#">Netflix</a>
           </li>
-          <li class="user__item"><a href="#">Início</a></li>
-          <li class="user__item"><a href="#">Séries</a></li>
-          <li class="user__item"><a href="#">Animes</a></li>
-          <li class="user__item"><a href="#">Mais recentes</a></li>
-          <li class="user__item"><a href="#">Minha lista</a></li>
+          <li class="user__item"><a href="#main">Início</a></li>
+          <li class="user__item"><a href="#series">Séries</a></li>
+          <li class="user__item"><a href="#animes">Animes</a></li>
+          <li class="user__item"><a href="#mais-recente">Mais recentes</a></li>
+          <li class="user__item"><a href="#minha-lista">Minha lista</a></li>
         </ul>
-        <span class="user__navigate-click">Navegar</span>
-        <nav class="user__navigate">
+        <button class="user__navigate-click" onclick="showNavegar()">Navegar</button>
+        <nav class="user__navigate" id="navigate">
           <ul>
-            <li class="user__navigate-item"><a href="#">Início</a></li>
-            <li class="user__navigate-item"><a href="#">Séries</a></li>
-            <li class="user__navigate-item"><a href="#">Animes</a></li>
-            <li class="user__navigate-item"><a href="#">Mais recentes</a></li>
-            <li class="user__navigate-item"><a href="#">Minha lista</a></li>
+            <li class="user__navigate-item"><a href="#main">Início</a></li>
+            <li class="user__navigate-item"><a href="#series">Séries</a></li>
+            <li class="user__navigate-item"><a href="#animes">Animes</a></li>
+            <li class="user__navigate-item"><a href="#mais-recente">Mais recentes</a></li>
+            <li class="user__navigate-item"><a href="#minha-lista">Minha lista</a></li>
           </ul>
         </nav>
       </nav>
@@ -49,7 +49,7 @@
         <img src="../public/images/okja.png" alt="personagem okja" class="avatar__img" />
       </figure>
     </header>
-    <section class="main">
+    <section class="main" id="main">
       <div class="panel">
         <img src="../public/images/space-force-logo.png" alt="logo da série" class="panel__logo" />
         <div class="panel__actions">
@@ -68,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section class="series carousel">
+    <section class="series carousel" id="series">
       <h3 class="carousel__title">
         Series
       </h3>
@@ -113,7 +113,7 @@
       <button class="prev" onclick="show(-1, 'series')">&lt;</button>
       <button class="next" onclick="show(+1, 'series')">&gt;</button>
     </section>
-    <section class="animes carousel">
+    <section class="animes carousel" id="animes">
       <h3 class="carousel__title">
         Animes
       </h3>
@@ -158,7 +158,7 @@
       <button class="prev" onclick="show(-1, 'animes')">&lt;</button>
       <button class="next" onclick="show(+1, 'animes')">&gt;</button>
     </section>
-    <section class="mais-recente carousel">
+    <section class="mais-recente carousel" id="mais-recente">
       <h3 class="carousel__title">
         Mais Recentes
       </h3>
@@ -203,7 +203,7 @@
       <button class="prev" onclick="show(-1, 'mais-recente')">&lt;</button>
       <button class="next" onclick="show(+1, 'mais-recente')">&gt;</button>
     </section>
-    <section class="minha-lista carousel">
+    <section class="minha-lista carousel" id="minha-lista">
       <h3 class="carousel__title">
         Minha Lista
       </h3>
