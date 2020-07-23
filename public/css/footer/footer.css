@@ -1,0 +1,37 @@
+.footer {
+  height: auto;
+  width: 100%;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-reverse;
+  background: #202020;
+  padding: 1em 0 1em 0;
+}
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 5px 5px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 1em 0 1em;
+}
+
+.footer__list-item i {
+  cursor: pointer;
+  font-size: 30px;
+  color: grey;
+  padding: 0 .5em 0 .5em;
+  transition: 0.3s;
+  animation: ease-in-out 1s;
+}
+
+.footer__list-item i:hover {
+  color: white;
+}

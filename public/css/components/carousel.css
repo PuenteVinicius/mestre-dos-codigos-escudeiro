@@ -1,8 +1,7 @@
 .carousel {
   position: relative;
   height: auto;
-	padding: .5em 0 .5em 2em;
-	top: -100px;
+	padding: 1.5em 0 1.5em 2em;
 	z-index: 1;
 }
 
