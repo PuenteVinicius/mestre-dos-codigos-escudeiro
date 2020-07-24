@@ -5,13 +5,13 @@ Desafio de frontend do mestre dos códigos do nível escudeiro
 Você pode ver o projeto rodando [aqui](https://mdc-frontend-escudeiro.herokuapp.com/).
 ## Tópicos
 
--  [Descrição do projeto](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#user-content-descrição-do-projeto)
+-  [Descrição do projeto](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-descrição-do-projeto)
 
--  [Deploy da Aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#deploy-da-aplicacao)
+-  [Deploy da Aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-deploy-da-aplicacao)
 
--  [Pré-requisitos](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#pre-requisitos)
+-  [Pré-requisitos](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-pre-requisitos)
 
--  [Como rodar a aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#como-rodar-a-aplicacao)
+-  [Como rodar a aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-como-rodar-a-aplicacao)
 
 ## Descrição do projeto
 
