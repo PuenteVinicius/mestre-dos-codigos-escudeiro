@@ -5,13 +5,13 @@ Desafio de frontend do mestre dos códigos do nível escudeiro
 Você pode ver o projeto rodando [aqui](https://mdc-frontend-escudeiro.herokuapp.com/).
 ## Tópicos
 
--  [Descrição do projeto](https://bitbucket.org/omnifinanceira/omni-refi-digital-front/src/dev/#markdown-header-descricao-do-projeto)
+-  [Descrição do projeto](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#user-content-descrição-do-projeto/#mdescricao-do-projeto)
 
--  [Deploy da Aplicação](https://bitbucket.org/omnifinanceira/omni-refi-digital-front/src/dev/#markdown-header-deploy-da-aplicacao)
+-  [Deploy da Aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#user-content-descrição-do-projeto/#deploy-da-aplicacao)
 
--  [Pré-requisitos](https://bitbucket.org/omnifinanceira/omni-refi-digital-front/src/dev/#markdown-header-pre-requisitos)
+-  [Pré-requisitos](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#user-content-descrição-do-projeto/#pre-requisitos)
 
--  [Como rodar a aplicação](https://bitbucket.org/omnifinanceira/omni-refi-digital-front/src/dev/#markdown-header-como-rodar-a-aplicacao)
+-  [Como rodar a aplicação](PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md/#user-content-descrição-do-projeto/#como-rodar-a-aplicacao)
 
 ## Descrição do projeto
 
