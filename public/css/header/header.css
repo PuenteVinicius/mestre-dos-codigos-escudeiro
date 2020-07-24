@@ -15,6 +15,12 @@
   background: var(--netflix-background);
   background: linear-gradient(180deg, rgba(2, 0, 36, 0.5844712885154062) 0%, rgba(0, 212, 255, 0) 100%, rgba(0, 0, 0, 1) 100%);
   z-index: 2;
+  transition: 0.3s;
+  animation: ease-in-out 1s;
+}
+
+.header--opacity {
+  background: black;
 }
 
 .user {
@@ -168,7 +174,7 @@
   .user__item a {
     display: none;
     margin: 0 10px;
-    color: var(--netlifx-white-dark);
+    color: white;
     font-size: 12px;
     text-decoration: none;
     font-weight: 900;
