@@ -7,11 +7,13 @@ Você pode ver o projeto rodando [aqui](https://mdc-frontend-escudeiro.herokuapp
 
 -  [Descrição do projeto](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-descrição-do-projeto)
 
--  [Deploy da Aplicação](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-deploy-da-aplicacao)
+-  [Funcionalidades](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-funcionalidades)
 
--  [Pré-requisitos](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-pre-requisitos)
+-  [Deploy da Aplicação](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-deploy-da-aplicação)
 
--  [Como rodar a aplicação](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-como-rodar-a-aplicacao)
+-  [Pré-requisitos](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-pré-requisitos)
+
+-  [Como rodar a aplicação](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-como-rodar-a-aplicação)
 
 ## Descrição do projeto
 
