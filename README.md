@@ -3,6 +3,9 @@ Desafio de frontend do mestre dos códigos do nível escudeiro
 
 > Status do Projeto: finalizado
 Você pode ver o projeto rodando [aqui](https://mdc-frontend-escudeiro.herokuapp.com/).
+
+> Questionário
+A resolução do questionário pode ser encontrada [aqui](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/Questionario.md)
 ## Tópicos
 
 -  [Descrição do projeto](https://github.com/PuenteVinicius/mestre-dos-codigos-escudeiro/blob/master/README.md#user-content-descrição-do-projeto)
