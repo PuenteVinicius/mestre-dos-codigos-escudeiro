@@ -1,4 +1,4 @@
-# Desáfio Mestre dos códigos [Escudeiro]
+# Desafio Mestre dos códigos [Escudeiro]
 Desafio de frontend do mestre dos códigos do nível escudeiro
 
 > Status do Projeto: Finalizado
