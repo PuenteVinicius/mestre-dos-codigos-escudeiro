@@ -17,7 +17,7 @@ function show(increase, type) {
 const userNavigateClass = 'user__navigate--show';
 
 function showNavegar() {
-  const element =  document.getElementById("navigate");
+  const element =  document.getElementById('navigate');
 
   if(element.classList.contains(userNavigateClass)) {
     return element.classList.remove(userNavigateClass);

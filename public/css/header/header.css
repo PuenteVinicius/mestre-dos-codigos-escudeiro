@@ -44,8 +44,7 @@
   display: block;
   font-family: 'Bebas Neue', cursive;
   color: var(--netflix-red);
-  margin: 0 10px 0 25px;
-  margin: 0;
+  margin-right: 30px;
 }
 
 .user__item a {
