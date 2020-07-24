@@ -196,3 +196,9 @@ const object = Object.create()
  - [ ] null
 
 ---
+21.Quando eu posso utilizar o "Use-strict" no meu código ?
+
+ - [x] No ínicio do meu código
+ - [] No inicio do block if
+ - [] No inicio de um loop
+ - [] no inicio de uma função
